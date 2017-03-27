@@ -1,4 +1,4 @@
 ---
 layout: page
-permalink: /service-plans/
+permalink: /support/
 ---
