@@ -1,2 +1,3 @@
-# calculusdevelopers.github.io
-Calculus Script Studios
+# taurussystems.github.io
+The website for Taurus Systems
+ - Built by developers.
