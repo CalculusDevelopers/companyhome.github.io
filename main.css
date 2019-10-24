@@ -10,6 +10,10 @@ nav {
 	width: 100%
 }
 
+p {
+	font-family: 'Fredoka One', 'Open Sans', Verdana;
+}
+
 ul {
 	margin: 0%;
     list-style-type: none;
@@ -53,7 +57,7 @@ li {
 
 li span {
 	font-size: 1.5em;
-	font-family: 'Josefin Sans', Geneva, Verdana;
+	font-family: 'Open Sans', Geneva, Verdana;
 }
 
 li a, .dropbtn {
@@ -83,7 +87,7 @@ li .dropdown {
 
 .dropdown-content a { /* Dropdown Links */
     color: orange;
-	font-family: 'Josefin Sans', Geneva, Verdana;
+	font-family: 'Open Sans', Geneva, Verdana;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -110,7 +114,7 @@ li .dropdown {
 	text-align: right;
 	color: #4da6ff;
 	font-size: 4em;
-	font-family: Impact, Times New Roman;
+	font-family: 'Open Sans', Times New Roman;
 	position: relative;
 }
 
@@ -131,7 +135,7 @@ li .dropdown {
 	background-color: #999999;
 	margin-top: 740px;
 	padding: 10px;
-	font-family: 'Josefin Sans', Geneva, Verdana;
+	font-family: 'Open Sans', Geneva, Verdana;
 }
 
 .site-footer {
