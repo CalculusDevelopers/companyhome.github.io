@@ -13,6 +13,7 @@ body {
 .header {
     width: 100%;
     background-image: url("/site-background.jpg");
+    height: 100px;
 }
 
 p {
