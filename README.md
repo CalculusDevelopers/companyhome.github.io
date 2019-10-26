@@ -1,2 +1,2 @@
 # veloticstechnologies.github.io
-The company website for Velotics Technologies
+My portfolio website for projects by Velotics Technologies
