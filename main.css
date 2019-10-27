@@ -14,6 +14,10 @@ h2 {
     font-family: 'Montserrat', 'Open Sans', Verdana;
 }
 
+p {
+    font-family: 'Fredoka One', 'Open Sans', Verdana;
+}
+
 .header {
     top: 0px;
     left: 0px;
@@ -136,6 +140,12 @@ li {
     display: block;
 }
 
+#body1-txt {
+    text-align: center;
+    position: relative;
+    left: 50%;
+}
+
 .game {
     padding-top: 100px;
 }
@@ -156,8 +166,4 @@ li {
 
 #myCanvas {
     padding-top: 100px;
-}
-
-p {
-    font-family: 'Fredoka One', 'Open Sans', Verdana;
 }
