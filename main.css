@@ -143,6 +143,7 @@ li {
 #body1-txt {
     text-align: center;
     position: relative;
+    top: 500px;
     left: 50%;
 }
 
