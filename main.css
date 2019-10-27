@@ -5,6 +5,11 @@ body {
 }
 
 h1 {
+    font-size: 4em;
+    font-family: 'Montserrat', 'Open Sans', Verdana;
+}
+
+h2 {
     font-size: 2em;
     font-family: 'Montserrat', 'Open Sans', Verdana;
 }
