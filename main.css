@@ -1,3 +1,15 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    .header { width:67%; }
+    .body1 { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tablet Portrait */
+@media screen and (max-width: 768px) {
+    .header { width:100%; }
+    .body1 { width:100%; margin:0; border:none; }
+}
+
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
