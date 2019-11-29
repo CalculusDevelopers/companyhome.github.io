@@ -16,16 +16,22 @@ body {
     background-color: white;
 }
 
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 h1 {
     font-size: 4em;
     font-family: 'Montserrat', 'Open Sans', Verdana;
-    color: #1084ff;
+    color: #00a5ff;
 }
 
 h2 {
     font-size: 2.25em;
     font-family: 'Montserrat', 'Open Sans', Verdana;
-    color: #1084ff;
+    color: #00a5ff;
 }
 
 p {
@@ -53,18 +59,18 @@ p {
     top: 195px;
     left: 90px;
     z-index: 100;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 #logo {
     position: fixed;
     padding-top: 2px;
     padding-bottom: 10px;
-    top: 210px;
+    top: 21%;
     left: 20px;
     height: 70px;
     z-index: 100;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 /* Nav Items */
@@ -105,7 +111,7 @@ li {
         padding-right: 50px;
         font-size: 1.75em;
         font-family: 'Montserrat', 'Open Sans', Verdana;
-        transition: 1s;
+        transition: 0.5s;
     }
 
 
@@ -154,9 +160,10 @@ li {
 
 #body1-txt {
     text-align: center;
+    vertical-align: middle;
+    margin-top: 25%;
     position: relative;
-    top: 500px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .button1 {
@@ -165,11 +172,10 @@ li {
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    -webkit-transition-duration: 1s; /* Safari */
-    transition-duration: 1s;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    transition: 0.5s;
 }
 
     .button1:hover {
@@ -179,9 +185,8 @@ li {
     }
 
 #btn-1 {
-    position: absolute;
-    top: 650px;
-    left: 850px;
+    position: static;
+    top: 10%;
 }
 
 .game {
