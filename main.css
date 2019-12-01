@@ -1,13 +1,26 @@
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
-    .header { width:67%; }
-    .body { width:30%; margin-left:3%;}  
+    .header {
+        width: 67%;
+    }
+
+    .body {
+        width: 30%;
+        margin-left: 3%;
+    }
 }
 
 /* Media Queries: Tablet Portrait */
 @media screen and (max-width: 768px) {
-    .header { width:100%; }
-    .body { width:100%; margin:0; border:none; }
+    .header {
+        width: 100%;
+    }
+
+    .body {
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
 }
 
 body {
@@ -164,7 +177,7 @@ li {
 #body1-txt {
     text-align: center;
     vertical-align: middle;
-    margin-top: 10%;
+    margin-top: 5%;
     position: relative;
     transition: 0.5s;
 }
@@ -191,16 +204,27 @@ li {
     position: static;
 }
 
-.game {
-    padding-top: 100px;
+.webgl-content {
+    position: static;
+    margin-top: 20%;
+    padding-bottom: 30%;
+    z-index: 0;
 }
 
 .donation-link {
+    text-align: center;
+    vertical-align: middle;
     background-color: #999999;
     margin-top: 740px;
     padding: 10px;
     font-family: 'Josefin Sans', Geneva, Verdana;
 }
+
+    .donation-link h2 {
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+    }
 
 .site-footer {
     /* background-color: #0066ff; */

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -52,24 +52,21 @@
     <div class="banner"></div>
     <div class="body1">
         <h1 id="body1-txt">Games by Velotics Technologies</h1>
-        <div class="game">
-            <div class="webgl-content">
-                <div id="gameContainer" style="width: 960px; height: 600px"></div>
-                <div class="footer">
-                    <div class="webgl-logo"></div>
-                    <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-                    <div class="title">Feed The Ball | A fast-action, 3D Platformer</div>
-                </div>
+        <div class="webgl-content">
+            <div id="gameContainer" style="width: 960px; height: 600px"></div>
+            <div class="footer">
+                <div class="webgl-logo"></div>
+                <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                <div class="title">Feed The Ball | A fast-action, 3D Platformer</div>
             </div>
         </div>
         <div class="donation-link">
+            <h2>Additional Links</h2>
             <h3>Programming for Charity</h3>
             <p>Velotics Games was created to raise money for a local charity. Please consider donating to Meals from the Heart in West Des Moines, IA at the link below:</p>
-            <a href="https://www.gofundme.com/programming-for-charity">Go Fund Me - Programming for Charity</a>
-        </div>
-        <h2>Feed the Ball - Data Collection Survey</h2>
-        <div id="wrapper">
-            <iframe class="survey" src="https://goo.gl/forms/r8ilUwUWIqptmsgJ3" height="900" width="1900"></iframe>
+            <button type="button" class="button1" id="btn-1" onclick="window.open('https://www.gofundme.com/programming-for-charity','_blank')">Donate</button>
+            <h3>Feed The Ball - Data Collection Survey</h3>
+            <button type="button" class="button1" id="btn-1" onclick="window.open('https://goo.gl/forms/r8ilUwUWIqptmsgJ3','_blank')">Take The Survey</button>
         </div>
     </div>
 </body>
