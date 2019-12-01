@@ -79,6 +79,10 @@ p {
     background-image: url("site-background.jpg");
 }
 
+#games {
+    /*background-image: url("games-banner.jpg"); */
+}
+
 #logo {
     position: fixed;
     padding-top: 2px;
@@ -204,17 +208,29 @@ li {
     position: static;
 }
 
-.games {
+.webgl-content {
+    text-align: center;
+    vertical-align: middle;
     position: static;
     margin-top: 30%;
+    width: 50%;
     z-index: 0;
 }
+
+    .webgl-content h1 {
+    }
+
+    .webgl-content h2 {
+        position: static;
+        text-align: left;
+        margin-top: 10%;
+    }
 
 .donation-link {
     text-align: center;
     vertical-align: middle;
     background-color: #999999;
-    margin-top: 50%;
+    margin-top: 60%;
     padding: 10px;
     font-family: 'Josefin Sans', Geneva, Verdana;
 }
