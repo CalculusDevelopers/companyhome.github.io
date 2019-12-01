@@ -204,10 +204,9 @@ li {
     position: static;
 }
 
-.webgl-content {
+.games {
     position: static;
-    margin-top: 20%;
-    padding-bottom: 30%;
+    margin-top: 30%;
     z-index: 0;
 }
 
@@ -215,7 +214,7 @@ li {
     text-align: center;
     vertical-align: middle;
     background-color: #999999;
-    margin-top: 740px;
+    margin-top: 50%;
     padding: 10px;
     font-family: 'Josefin Sans', Geneva, Verdana;
 }
