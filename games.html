@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Velotics Technologies | Project Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon" />
+
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans|Montserrat|Josefin+Sans&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- Unity WebGL -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", { onProgress: UnityProgress });
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <!--Navigation Bar-->
+        <a href="index.html"><img id="logo" src="Web-feature.jpg" /></a>
+        <ul>
+            <li><a href="media.html"><span>Media</span></a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"><span>Organizations</span></a>
+                <div class="dropdown-content">
+                    <a href="projectdsm.html"><span>ProjectDSM</span></a>
+                    <a href="ice.html"><span>ICE Robotics</span></a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"><span>Projects</span></a>
+                <div class="dropdown-content">
+                    <a href="orion-antivirus.html"><span>Orion Antivirus</span></a>
+                    <a href="games.html"><span>Games</span></a>
+                    <a href="mobile.html"><span>Mobile Apps</span></a>
+                </div>
+            </li>
+            <li><a href="contact.html"><span>Contact</span></a></li>
+            <li><a href="about.html"><span>About</span></a></li>
+            <li><a href="index.html"><span>Home</span></a></li>
+        </ul>
+    </div>
+    <div class="banner"></div>
+    <div class="body1">
+        <h1 id="body1-txt">Games by Velotics Technologies</h1>
+        <div class="game">
+            <div class="webgl-content">
+                <div id="gameContainer" style="width: 960px; height: 600px"></div>
+                <div class="footer">
+                    <div class="webgl-logo"></div>
+                    <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                    <div class="title">Feed The Ball | A fast-action, 3D Platformer</div>
+                </div>
+            </div>
+        </div>
+        <div class="donation-link">
+            <h3>Programming for Charity</h3>
+            <p>Velotics Games was created to raise money for a local charity. Please consider donating to Meals from the Heart in West Des Moines, IA at the link below:</p>
+            <a href="https://www.gofundme.com/programming-for-charity">Go Fund Me - Programming for Charity</a>
+        </div>
+        <h2>Feed the Ball - Data Collection Survey</h2>
+        <div id="wrapper">
+            <iframe class="survey" src="https://goo.gl/forms/r8ilUwUWIqptmsgJ3" height="900" width="1900"></iframe>
+        </div>
+    </div>
+</body>
+</html>

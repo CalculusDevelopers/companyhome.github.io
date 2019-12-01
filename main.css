@@ -1,13 +1,13 @@
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
     .header { width:67%; }
-    .body1 { width:30%; margin-left:3%;}  
+    .body { width:30%; margin-left:3%;}  
 }
 
 /* Media Queries: Tablet Portrait */
 @media screen and (max-width: 768px) {
     .header { width:100%; }
-    .body1 { width:100%; margin:0; border:none; }
+    .body { width:100%; margin:0; border:none; }
 }
 
 body {
@@ -35,8 +35,14 @@ h2 {
     color: #00a5ff;
 }
 
+h3 {
+    font-size: 1em;
+    font-family: 'Monserrat', 'Open Sans', Verdana;
+    color: #000000;
+}
+
 p {
-    font-family: 'Fredoka One', 'Open Sans', Verdana;
+    font-family: 'Open Sans', Verdana;
 }
 
 .navbar {
@@ -47,6 +53,7 @@ p {
     width: 100%;
     margin-top: 0px;
     box-shadow: 0px 5px 5px #cccccc;
+    z-index: 100;
 }
 
 .banner {
@@ -59,21 +66,13 @@ p {
     background-image: url("site-background.jpg");
 }
 
-#header-txt {
-    position: fixed;
-    top: 0%;
-    margin-left: 5%;
-    z-index: 100;
-    transition: 0.5s;
-}
-
 #logo {
     position: fixed;
     padding-top: 2px;
     padding-bottom: 10px;
     left: 20px;
     top: 1%;
-    height: 74px;
+    height: 7.5%;
     z-index: 100;
     transition: 0.5s;
 }
@@ -189,7 +188,6 @@ li {
     }
 
 #btn-1 {
-    padding-top: 10%;
     position: static;
 }
 
@@ -201,7 +199,7 @@ li {
     background-color: #999999;
     margin-top: 740px;
     padding: 10px;
-    font-family: 'Open Sans', Geneva, Verdana;
+    font-family: 'Josefin Sans', Geneva, Verdana;
 }
 
 .site-footer {
@@ -216,5 +214,7 @@ li {
 }
 
 #antivirus-logo {
-
+    top: 10%;
+    height: 10%;
+    width: 10%;
 }
