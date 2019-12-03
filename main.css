@@ -224,14 +224,17 @@ li {
         position: static;
         text-align: left;
         margin-top: 10%;
+        margin-bottom: 5%;
     }
 
 .donation-link {
+    position: relative;
     text-align: center;
     vertical-align: middle;
     background-color: #999999;
     margin-top: 60%;
-    padding: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-family: 'Josefin Sans', Geneva, Verdana;
 }
 
