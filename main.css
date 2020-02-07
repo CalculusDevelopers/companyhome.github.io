@@ -186,6 +186,15 @@ li {
     transition: 0.5s;
 }
 
+.body2 {
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+    background-color: #f1f1f1; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .button1 {
     background-color: rgb(0, 175, 255);
     border: none;
