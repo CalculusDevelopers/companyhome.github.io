@@ -218,14 +218,10 @@ li {
 }
 
 .webgl-content {
-    text-align: center;
-    vertical-align: middle;
-    position: static;
-    margin-top: 30%;
-    width: 50%;
+    padding-top: 80%;
+    margin-top: 30%
     z-index: 0;
 }
-
     .webgl-content h1 {
     }
 
@@ -241,7 +237,7 @@ li {
     text-align: center;
     vertical-align: middle;
     background-color: #999999;
-    margin-top: 60%;
+    margin-top: 70%;
     padding-top: 1%;
     padding-bottom: 1%;
     font-family: 'Josefin Sans', Geneva, Verdana;
