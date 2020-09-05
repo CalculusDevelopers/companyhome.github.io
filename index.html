@@ -1,12 +1,14 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Henry Shires | Project Portfolio</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="styles/main.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon" />
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans|Montserrat&display=swap" rel="stylesheet">
 
     <meta charset="utf-8">
@@ -14,39 +16,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
 </head>
+
 <body>
-    <div class="navbar">
-        <!--Navigation Bar-->
-        <a href="index.html"><img id="logo" src="hcshires.png"/></a>
-        <ul>
-            <li><a> </a></li> <!-- Fix Arrow Glitch with empty item -->
-            <li><a href="/pages/media.html"><span>Media</span></a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn"><span>Organizations</span></a>
-                <div class="dropdown-content">
-                    <a href="projectdsm.html"><span>ProjectDSM</span></a>
-                    <a href="ice.html"><span>ICE Robotics</span></a>
+    <div class="container-fluid h-100" style="padding: 0">
+        <div class="row h-100 navbar-row">
+            <div class="col-12">
+                <div class="col-md-10 offset-md-1">
+                    <nav class="navbar navbar-light navbar-expand-md">
+                        <a class="navbar-brand verticalAlign" href="#" style="float: left;">
+                            <img src="images/hcshires.png" width="100" height="100" class="d-inline-block align-center"
+                                alt="Henry Shires logo">
+                            Henry Shires
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Organizations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Media</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn"><span>Projects</span></a>
-                <div class="dropdown-content">
-                    <a href="pages/orion-antivirus.html"><span>Orion Antivirus</span></a>
-                    <a href="pages/games.html"><span>Games</span></a>
-                    <a href="pages/mobile.html"><span>Mobile Apps</span></a>
-                </div>
-            </li>
-            <li><a href="contact.html"><span>Contact</span></a></li>
-            <li><a href="about.html"><span>About</span></a></li>
-            <li><a href="index.html"><span>Home</span></a></li>
-        </ul>
-    </div>
-    <div class="banner" id="home"></div>
-    <div class="body1">
-        <h1 id="body1-txt">Leading Innovation in the Right Direction</h1>
-        <div id="wrapper">
-            <button type="button" class="button1" id="btn-1" onclick="window.location.href='about.html';">View My Projects</button>
+            </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col-md-10 offset-md-1 body1">
+                <h1 id="body1-txt">Leading Innovation in the Right Direction</h1>
+                <div id="wrapper">
+                    <button type="button" class="button1" id="btn-1"
+                        onclick="window.location.href='about.html';">View
+                        My Projects</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>

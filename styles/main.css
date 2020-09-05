@@ -1,33 +1,13 @@
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    .header {
-        width: 67%;
-    }
-
-    .body {
-        width: 30%;
-        margin-left: 3%;
-    }
-}
-
-/* Media Queries: Tablet Portrait */
-@media screen and (max-width: 768px) {
-    .header {
-        width: 100%;
-    }
-
-    .body {
-        width: 100%;
-        margin: 0;
-        border: none;
-    }
-}
-
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: white;
     margin: 0;
+}
+
+.verticalAlign {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #wrapper {
@@ -58,25 +38,14 @@ p {
     font-family: 'Open Sans', Verdana;
 }
 
-.navbar {
-    background-color: white;
-    top: 0px;
-    left: 0%;
-    position: fixed;
-    width: 100%;
-    margin-top: 0px;
+.navbar-row {
     box-shadow: 0px 5px 5px #cccccc;
-    z-index: 100;
+    background-color: white !important;
 }
 
-.banner {
-    position: static;
-    margin-top: 4%;
-    margin-left: 0px;
-    height: 400px;
-    width: 100%;
-    z-index: 0;
-    background-image: url("site-background.jpg");
+.navbar-nav .nav-link {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #games {
@@ -84,98 +53,9 @@ p {
 }
 
 #logo {
-    position: fixed;
-    padding-top: 2px;
-    padding-bottom: 10px;
-    left: 20px;
-    top: 1%;
-    height: 10%;
-    z-index: 100;
+    width: 50%;
+    height: 50%;
     transition: 0.5s;
-}
-
-/* Nav Items */
-ul {
-    list-style-type: none;
-    width: 100%;
-    overflow: hidden;
-    position: static;
-}
-
-li {
-    float: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-    li a, .dropbtn {
-        display: inline-block;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-        li a:hover, .dropdown:hover .dropbtn {
-            background-color: white;
-        }
-
-    li .dropdown {
-        display: inline-block;
-    }
-
-    li span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        padding-right: 50px;
-        font-size: 1.75em;
-        font-family: 'Montserrat', 'Open Sans', Verdana;
-        transition: 0.5s;
-    }
-
-
-        li span:after {
-            content: '\00bb';
-            position: absolute;
-            opacity: 0;
-            top: 0;
-            right: -20px;
-            transition: 0.5s;
-        }
-
-    li:hover span {
-        padding-right: 75px;
-    }
-
-        li:hover span:after {
-            opacity: 1;
-            right: 0;
-        }
-
-.dropdown-content { /* Dropdown Menu */
-    display: none;
-    position: relative;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-    .dropdown-content a { /* Dropdown Links */
-        font-family: 'Montserrat', 'Open Sans', Verdana;
-        font-size: 0.75em;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-    }
-
-        .dropdown-content a:hover { /* Link Hovered */
-            background-color: #f1f1f1;
-        }
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 #body1-txt {
@@ -205,6 +85,7 @@ li {
     -webkit-transition-duration: 0.5s; /* Safari */
     transition-duration: 0.5s;
     transition: 0.5s;
+    border-radius: 4px;
 }
 
     .button1:hover {
@@ -219,7 +100,7 @@ li {
 
 .webgl-content {
     padding-top: 80%;
-    margin-top: 30%
+    margin-top: 30%;
     z-index: 0;
 }
     .webgl-content h1 {
