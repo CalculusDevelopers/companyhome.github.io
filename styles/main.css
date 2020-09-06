@@ -20,6 +20,15 @@ h2, h3, h4, p, ul, a {
 	font-family: "Montserrat", "Open Sans", Verdana !important;
 }
 
+p {
+    color: #676767;
+}
+
+footer {
+    background-color: white !important;
+    box-shadow: 0px -5px 5px #eee;
+}
+
 .underline::after, .underline-blue::after {
 	border-left: 68px solid white;
 	display: block;
@@ -49,11 +58,14 @@ h2, h3, h4, p, ul, a {
 
 .navbar-nav .nav-link {
 	margin-top: auto;
-	margin-bottom: auto;
+    margin-bottom: auto;
+    -webkit-transition-duration: 0.5s; /* Safari */
+	transition-duration: 0.5s;
+	transition: 0.5s;
 }
 
     .navbar-nav .nav-link:hover {
-
+        color: #66c4ff !important;
     }
 
 .navbar-light .navbar-nav .active > .nav-link,
@@ -180,19 +192,6 @@ h2, h3, h4, p, ul, a {
 	color: white;
 }
 
-.site-footer {
-	/* background-color: #0066ff; */
-	width: 100%;
-	height: 100px;
-	position: absolute;
-}
-
 #myCanvas {
 	padding-top: 100px;
-}
-
-#antivirus-logo {
-	top: 10%;
-	height: 10%;
-	width: 10%;
 }
