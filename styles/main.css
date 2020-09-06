@@ -3,6 +3,7 @@ body {
     background-attachment: fixed;
     background-color: white;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .verticalAlign {
@@ -10,37 +11,50 @@ body {
     margin-bottom: auto;
 }
 
-#wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 h1 {
-    font-size: 4em;
-    font-family: 'Montserrat', 'Open Sans', Verdana;
-    color: #00a5ff;
+    font-size: 4em !important;
+    font-family: 'Montserrat', 'Open Sans', Verdana !important;
+    color: white !important;
 }
 
 h2 {
     font-size: 2.25em;
     font-family: 'Montserrat', 'Open Sans', Verdana;
-    color: #00a5ff;
 }
 
 h3 {
-    font-size: 1em;
     font-family: 'Monserrat', 'Open Sans', Verdana;
-    color: #000000;
 }
 
 p {
-    font-family: 'Open Sans', Verdana;
+    font-family: 'Montserrat', 'Open Sans', Verdana !important;
+}
+
+ul {
+    font-family: 'Montserrat', 'Open Sans', Verdana !important;
+}
+
+a {
+    font-family: 'Montserrat', 'Open Sans', Verdana !important;
+}
+
+.underline::after {
+    border-left: 68px solid white;
+    display: block;
+    content: "";
+    height: 2px;
+    margin-top: 1rem;
 }
 
 .navbar-row {
-    box-shadow: 0px 5px 5px #cccccc;
+    box-shadow: 0px 5px 5px #1aa7ff;
     background-color: white !important;
+    z-index: 100;
+    position: relative;
+}
+
+.navbar-nav {
+    font-size: 18px !important;
 }
 
 .navbar-nav .nav-link {
@@ -48,8 +62,8 @@ p {
     margin-bottom: auto;
 }
 
-#games {
-    /*background-image: url("games-banner.jpg"); */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #2fafff !important;
 }
 
 #logo {
@@ -58,27 +72,18 @@ p {
     transition: 0.5s;
 }
 
-#body1-txt {
-    text-align: center;
-    vertical-align: middle;
-    margin-top: 5%;
-    position: relative;
-    transition: 0.5s;
+.section-blue {
+    background-color: #2fafff;
 }
 
-.body2 {
-    text-align: center;
-    vertical-align: center;
-    position: relative;
-    background-color: #f1f1f1; 
-    padding-top: 5%;
-    padding-bottom: 5%;
+#section-1 {
+    padding: 200px 0px;
 }
 
 .button1 {
-    background-color: rgb(0, 175, 255);
+    background-color: white;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     font-size: 16px;
@@ -89,13 +94,18 @@ p {
 }
 
     .button1:hover {
-        background-color: rgba(0, 175, 255, 0.5);
-        color: white;
+        background-color: #ddd;
+        color: black;
         cursor: pointer;
     }
 
-#btn-1 {
-    position: static;
+.bordered-img {
+    position: relative;
+    box-shadow: 10px 10px 10px #008ee6;
+    border-radius: 8px;
+    border: 5px solid white;
+    z-index: 100;
+    
 }
 
 .webgl-content {
@@ -103,8 +113,6 @@ p {
     margin-top: 30%;
     z-index: 0;
 }
-    .webgl-content h1 {
-    }
 
     .webgl-content h2 {
         position: static;
