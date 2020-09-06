@@ -14,7 +14,6 @@ body {
 h1 {
     font-size: 4em !important;
     font-family: 'Montserrat', 'Open Sans', Verdana !important;
-    color: white !important;
 }
 
 h2 {
@@ -46,8 +45,15 @@ a {
     margin-top: 1rem;
 }
 
+.underline-right::after {
+    border-right: 68px solid white;
+    display: block;
+    content: "";
+    height: 2px;
+    margin-top: 1rem;
+}
+
 .navbar-row {
-    box-shadow: 0px 5px 5px #1aa7ff;
     background-color: white !important;
     z-index: 100;
     position: relative;
@@ -55,6 +61,11 @@ a {
 
 .navbar-nav {
     font-size: 18px !important;
+    color: #676767 !important;
+}
+
+.navbar-brand {
+    color: #676767 !important;
 }
 
 .navbar-nav .nav-link {
@@ -76,8 +87,13 @@ a {
     background-color: #2fafff;
 }
 
-#section-1 {
-    padding: 200px 0px;
+.section-white {
+    background-color: #f7f9fb;
+}
+
+.btn-primary {
+    background-color: #2fafff !important;
+    border-color: #2fafff !important;
 }
 
 .button1 {
