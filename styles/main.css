@@ -25,7 +25,7 @@ h2, h3, h4, p, ul, a {
 	display: block;
 	content: "";
 	height: 2px;
-	margin: 1rem 0;
+	margin: 20px 0;
 }
 
 .underline-blue::after {
@@ -88,7 +88,7 @@ h2, h3, h4, p, ul, a {
 	-webkit-transition-duration: 0.5s; /* Safari */
 	transition-duration: 0.5s;
 	transition: 0.5s;
-	border-radius: 4px;
+	border-radius: 8px;
 }
 
     .button1:hover {
@@ -107,7 +107,7 @@ h2, h3, h4, p, ul, a {
 	-webkit-transition-duration: 0.5s; /* Safari */
 	transition-duration: 0.5s;
 	transition: 0.5s;
-	border-radius: 4px;
+	border-radius: 8px;
 }
 
     .button2:hover {
@@ -125,7 +125,7 @@ h2, h3, h4, p, ul, a {
 }
 
 .divider {
-    margin: 100px 0px;
+    margin: 50px 0px;
 }
 
 .webgl-content {
