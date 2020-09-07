@@ -11,121 +11,112 @@
 	<link rel="stylesheet" href="TemplateData/style.css">
 	<script src="Build/UnityLoader.js"></script>
 	<script>
-		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", { onProgress: UnityProgress });
 	</script>
 
-    <link rel="stylesheet" href="../../styles/main.css" />
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <link rel="apple-touch-icon" href="./favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans|Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../../styles/main.css" />
+	<link rel="shortcut icon" href="./favicon.ico" />
+	<link rel="apple-touch-icon" href="./favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans|Montserrat&display=swap" rel="stylesheet">
 
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
 </head>
 
 <body>
-    <div class="container-fluid h-100" style="padding: 0">
-        <div class="row h-100 navbar-row" style="box-shadow: 0px 5px 5px #eee;">
-            <div class="col-12">
-                <div class="col-md-10 offset-md-1">
-                    <nav class="navbar navbar-light navbar-expand-lg">
-                        <a class="navbar-brand verticalAlign" href="../../index.html" style="float: left;">
-                            <img src="../../images/hcshires.png" width="100" height="100"
-                                class="d-inline-block align-center" alt="Henry Shires logo">
-                            Henry Shires
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../../index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../../contact.html">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../../projects.html">Projects</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../../organizations.html">Organizations</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../../media.html">Media</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-		</div>
-		<div class="row h-100">
-			<div class="col-md-10 offset-md-1">
-				<div class="webgl-content">
-					<div id="gameContainer" style="height: 600px"></div>
-					<div class="footer">
-						<div class="webgl-logo"></div>
-						<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-						<div class="title">Feed The Ball | A fast-action, 3D Platformer</div>
-					</div>
+	<div class="container-fluid h-100" style="padding: 0">
+		<div class="row h-100 navbar-row" style="position: relative; box-shadow: 0px 5px 5px #eee;">
+			<div class="col-12">
+				<div class="col-md-10 offset-md-1">
+					<nav class="navbar navbar-light navbar-expand-lg">
+						<a class="navbar-brand verticalAlign" href="../../index.html" style="float: left;">
+							<img src="../../images/hcshires.png" width="100" height="100"
+								class="d-inline-block align-center" alt="Henry Shires logo">
+							Henry Shires
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+							aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a class="nav-link" href="../../index.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../../contact.html">Contact</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../../projects.html">Projects</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../../organizations.html">Organizations</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../../media.html">Media</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
 				</div>
 			</div>
 		</div>
-		<div class="row h-100">
-			<div class="col-md-10 offset-md-1">
-				<div style="background-color: #999999;">
-					<h3>Programming for Charity</h3>
-					<p>Velotics Games was created to raise money for a local charity. Please consider donating to Meals from the Heart in West Des Moines, IA at the link below:</p>
-					<a href="https://www.gofundme.com/programming-for-charity">Go Fund Me - Programming for Charity</a>
+		<div class="row h-100" style="position: relative;">
+			<div class="col-md-10 offset-md-1 webgl-content">
+				<div id="gameContainer" style="height: 600px"></div>
+				<div class="footer">
+					<div class="webgl-logo"></div>
+					<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+					<div class="title">Feed The Ball | A fast-action, 3D Platformer</div>
 				</div>
 			</div>
 		</div>
-		<footer class="row h-100 section-white" style="padding: 25px 0px">
-            <div class="col-md-4 offset-md-1 verticalAlign">
-                <a class="navbar-brand" href="../../index.html">
-                    <img src="../../images/hcshires.png" width="100" height="100" class="d-inline-block align-center"
-                        alt="Henry Shires logo">
-                    Henry Shires
-                </a>
-                <hr>
-                <p style="padding-top: 10px;">Site designed by Henry Shires in HTML 5/CSS 3 with Boostrap 4</p>
-            </div>
-            <div class="col-md-2 offset-md-4 verticalAlign">
-                <p>Sitemap</p>
-                <div class="row">
-                    <div class="col-6" style="display: inline;">
-                        <ul
-                            style="display: block; list-style-type: none; list-style-position: inside; margin: 0; padding: 0">
-                            <li>
-                                <a style="color: #2fafff" href="../../index.html">Home</a>
-                            </li>
-                            <li>
-                                <a style="color: #2fafff" href="../../contact.html">Contact</a>
-                            </li>
-                            <li>
-                                <a style="color: #2fafff" href="../../projects.html">Projects</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6" style="display: inline;">
-                        <ul
-                            style="display: block; list-style-type: none; list-style-position: inside; margin: 0; padding: 0">
-                            <li>
-                                <a style="color: #2fafff" href="../../organizations.html">Organizations</a>
-                            </li>
-                            <li>
-                                <a style="color: #2fafff" href="../../media.html">Media</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-  </body>
+	</div>
+	<footer class="row h-100 section-white" style="position: relative; padding: 25px 0px">
+		<div class="col-md-4 offset-md-1 verticalAlign">
+			<a class="navbar-brand" href="../../index.html">
+				<img src="../../images/hcshires.png" width="100" height="100" class="d-inline-block align-center"
+					alt="Henry Shires logo">
+				Henry Shires
+			</a>
+			<hr>
+			<p style="padding-top: 10px;">Site designed by Henry Shires in HTML 5/CSS 3 with Boostrap 4</p>
+		</div>
+		<div class="col-md-2 offset-md-4 verticalAlign">
+			<p>Sitemap</p>
+			<div class="row">
+				<div class="col-6" style="display: inline;">
+					<ul
+						style="display: block; list-style-type: none; list-style-position: inside; margin: 0; padding: 0">
+						<li>
+							<a style="color: #2fafff" href="../../index.html">Home</a>
+						</li>
+						<li>
+							<a style="color: #2fafff" href="../../contact.html">Contact</a>
+						</li>
+						<li>
+							<a style="color: #2fafff" href="../../projects.html">Projects</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-6" style="display: inline;">
+					<ul
+						style="display: block; list-style-type: none; list-style-position: inside; margin: 0; padding: 0">
+						<li>
+							<a style="color: #2fafff" href="../../organizations.html">Organizations</a>
+						</li>
+						<li>
+							<a style="color: #2fafff" href="../../media.html">Media</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+</body>
+
 </html>
