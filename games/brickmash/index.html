@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Brickmash | Games by Henry Shires</title>
+	<link rel="stylesheet" href="../../styles/main.css" />
+	<link rel="shortcut icon" href="./favicon.ico" />
+	<link rel="apple-touch-icon" href="./favicon.ico" type="image/x-icon" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans|Montserrat&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		canvas {
+			background: #eee;
+			display: block;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container-fluid h-100" style="padding: 0">
+		<div class="row h-100 navbar-row" style="box-shadow: 0px 5px 5px #eee;">
+            <div class="col-12">
+                <div class="col-md-10 offset-md-1">
+                    <nav class="navbar navbar-light navbar-expand-lg">
+                        <a class="navbar-brand verticalAlign" href="./index.html" style="float: left;">
+                            <img src="../../images/hcshires.png" width="100" height="100"
+                                class="d-inline-block align-center" alt="Henry Shires logo">
+                            Henry Shires
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../../contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../../projects.html">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../../organizations.html">Organizations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../../media.html">Media</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+		<div class="row h-100">
+			<div class="col-md-10 offset-md-1">
+				<canvas id="myCanvas">
+					<script src="brickmash.js"></script>
+				</canvas>
+			</div>
+		</div>
+</body>
+
+</html>
