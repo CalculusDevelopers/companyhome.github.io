@@ -1,5 +1,9 @@
-var canvas = document.getElementById("myCanvas");
+var canvas = document.getElementById("brickmash");
 var ctx = canvas.getContext("2d");
+
+ctx.canvas.width = canvas.clientWidth;
+ctx.canvas.height = window.innerHeight;
+
 var ballRadius = 10;
 var x = canvas.width / 2;
 var y = canvas.height - 30;
@@ -170,4 +174,5 @@ function draw() {
 	y += dy;
 	requestAnimationFrame(draw);
 }
+
 draw();
