@@ -11,12 +11,7 @@ body {
 	margin-bottom: auto;
 }
 
-h1 {
-	font-size: 4em !important;
-	font-family: "Montserrat", "Open Sans", Verdana !important;
-}
-
-h2, h3, h4, p, ul, a {
+h1, h2, h3, h4, p, ul, a {
 	font-family: "Montserrat", "Open Sans", Verdana !important;
 }
 
