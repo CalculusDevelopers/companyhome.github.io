@@ -86,11 +86,13 @@ footer {
 .btn-primary {
 	background-color: #2fafff !important;
 	border-color: #2fafff !important;
+	padding: 15px 32px !important;
+	border-radius: 8px !important;
 }
 
-.button1 {
+.button1, .button4 {
 	background-color: white;
-	border: none;
+	border: 3px solid white;
 	color: #676767;
 	padding: 15px 32px;
 	text-align: center;
@@ -102,8 +104,8 @@ footer {
 }
 
     .button1:hover {
-        background-color: #ddd;
-        color: #676767;
+		background-color: #ddd;
+		border-color: #ddd;
         cursor: pointer;
     }
 
@@ -143,7 +145,19 @@ footer {
         border-color: #ddd;
         color: #ddd;
         cursor: pointer;
-    }
+	}
+
+.button4 {
+	background-color: #2fafff !important;
+	border: 3px solid #2fafff !important;
+	color: white !important;
+}
+
+	.button4:hover {
+		border-color: #66c4ff !important;
+		background-color: #66c4ff !important;
+		cursor: pointer;
+	}
 
 .bordered-img {
 	position: relative;
