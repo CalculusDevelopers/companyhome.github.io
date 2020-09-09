@@ -267,6 +267,12 @@ footer {
 	}
 }
 
+@media (max-width: 1000px) {
+	#callToAction {
+		margin-bottom: 50px;
+	}
+}
+
 #brickmash {
 	margin-top: 50px;
 	margin-bottom: 50px;
