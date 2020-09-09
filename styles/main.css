@@ -19,6 +19,93 @@ p {
     color: #676767;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) {
+	h1 {
+		font-size: 32px !important;
+	}
+
+	h2 {
+		font-size: 24px !important;
+	}
+
+	h4 {
+		font-size: 18px !important;
+	}
+
+	h5 {
+		font-size: 14px !important;
+	}
+
+	p {
+		font-size: 14px !important;
+	}
+}
+
+@media (min-width: 480px) {
+	h1 {
+		font-size: 32px !important;
+	}
+
+	h2 {
+		font-size: 24px !important;
+	}
+
+	h4 {
+		font-size: 18px !important;
+	}
+
+	h5 {
+		font-size: 18px !important;
+	}
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 48px !important;
+	}
+
+	h2 {
+		font-size: 32px !important;
+	}
+
+	h4 {
+		font-size: 18px !important;
+	}
+}
+
+@media (min-width: 992px) {
+	h1 {
+		font-size: 64px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
+
+	h4 {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 72px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	h4 {
+		font-size: 24px;
+	}
+}
+
 footer {
     background-color: white !important;
     box-shadow: 0px -5px 5px #eee;
@@ -165,10 +252,19 @@ footer {
 	border-radius: 8px;
 	border: 5px solid white;
 	z-index: 100;
+	margin-bottom: 50px;
 }
 
-.divider {
-    margin: 50px 0px;
+@media (min-width: 0px) {
+	.divider {
+		margin: 25px 0px;
+	}
+}
+
+@media (min-width: 768px) {
+	.divider {
+		margin: 50px 0px;
+	}
 }
 
 #brickmash {
