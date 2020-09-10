@@ -4,6 +4,7 @@ body {
 	background-color: white;
 	margin: 0;
 	overflow-x: hidden;
+	padding-top: 65px;
 }
 
 .verticalAlign {
@@ -121,6 +122,12 @@ footer {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
 	color: #2fafff !important;
+}
+
+#index-nav {
+	-webkit-transition-duration: 0.5s; /* Safari */
+	transition-duration: 0.5s;
+	transition: 0.5s;
 }
 
 .card-transparent {
