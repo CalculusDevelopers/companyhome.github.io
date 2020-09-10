@@ -29,10 +29,6 @@ p {
 		font-size: 24px !important;
 	}
 
-	h4 {
-		font-size: 18px !important;
-	}
-
 	h5 {
 		font-size: 14px !important;
 	}
@@ -51,10 +47,6 @@ p {
 		font-size: 24px !important;
 	}
 
-	h4 {
-		font-size: 18px !important;
-	}
-
 	h5 {
 		font-size: 18px !important;
 	}
@@ -69,40 +61,14 @@ p {
 		font-size: 32px !important;
 	}
 
-	h4 {
-		font-size: 18px !important;
-	}
-}
-
-@media (min-width: 992px) {
-	h1 {
-		font-size: 64px;
-	}
-
-	h2 {
-		font-size: 36px;
-	}
-
-	h4 {
-		font-size: 24px;
-	}
-}
-
-@media (min-width: 1200px) {
-	h1 {
-		font-size: 72px;
-	}
-
-	h2 {
-		font-size: 36px;
-	}
-
 	p {
-		font-size: 18px;
+		font-size: 16px !important;
 	}
+}
 
-	h4 {
-		font-size: 24px;
+@media (max-width: 767px) {
+	h3, h4 {
+		font-size: 18px !important;
 	}
 }
 
