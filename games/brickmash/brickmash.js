@@ -77,7 +77,8 @@ function collisionDetection() {
 				) {
 					dy = -dy;
 					b.status = 0;
-					shotgun.play();
+					var nShotgun = shotgun.cloneNode();
+					nShotgun.play();
 					score++;
 					if (score == brickRowCount * brickColumnCount) {
 						atomic.play();
