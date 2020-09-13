@@ -16,7 +16,7 @@ h1, h2, h3, h4, p, ul, a {
 	font-family: "Montserrat", "Open Sans", Verdana !important;
 }
 
-p {
+p, ul {
     color: #676767;
 }
 
