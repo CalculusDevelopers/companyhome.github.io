@@ -1,0 +1,6 @@
+[submodule "projects/--force"]
+	path = projects/--force
+	url = https://github.com/hcshires/myproject
+[submodule "projects/myproject"]
+	path = projects/myproject
+	url = https://github.com/hcshires/myproject
