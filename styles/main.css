@@ -250,3 +250,11 @@ footer {
 	border-radius: 8px !important;
 	border: none !important;
 }
+
+.card-title {
+	color: #2fafff !important;
+}
+
+.card-image {
+	border-radius: 0px 8px 8px 0px;
+}
