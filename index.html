@@ -24,9 +24,11 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans|Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/transition.css@v2.0.0/dist/transition.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/transition.css@v2.0.0/dist/transition.min.css" />
+
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -46,8 +48,8 @@
                 <div class="col-md-10 offset-md-1">
                     <nav class="navbar navbar-light navbar-expand-lg">
                         <a class="navbar-brand verticalAlign" href="./index.html" style="float: left;">
-                            <img src="./images/hcshires.png" height="100"
-                                class="d-inline-block align-center" alt="Henry Shires logo">
+                            <img src="./images/hcshires.png" height="100" class="d-inline-block align-center"
+                                alt="Henry Shires logo">
                             <h4 class="d-none d-md-inline">Henry Shires</h4>
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -79,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <div class="row h-100 section-blue" id="bio" style="padding: 100px 0px">
+        <div class="row h-100 section-blue" id="bio" style="padding: 100px 0px;">
             <div class="col order-2 order-md-1 col-10 col-md-4 offset-1 offset-md-2 verticalAlign ld ld-throw-ltr-in">
                 <h1 style="color: white !important;" class="underline">Oh, hi there<br />I'm<strong> Henry
                         Shires</strong></h1>
@@ -98,33 +100,52 @@
             <div class="col-10 offset-1">
                 <h1 style="color: #2fafff; margin: 100px 0px">What I Do</h1>
                 <div class="card-deck">
-                    <div class="card">
-                        <img src="./images/icons/web.png" width="64" height="64" class="mx-auto" alt="Website icon">
+                    <div class="card align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#2FAFFF"
+                            class="bi bi-window-sidebar" viewBox="0 0 16 16">
+                            <path
+                                d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
+                            <path
+                                d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v2H1V3a1 1 0 0 1 1-1h12zM1 13V6h4v8H2a1 1 0 0 1-1-1zm5 1V6h9v7a1 1 0 0 1-1 1H6z" />
+                        </svg>
                         <div class="card-body">
-                            <h5 class="card-title">Web Development</h5>
+                            <h5 class="card-title">Web & API Development</h5>
                             <p class="card-text">The majority of my projects involve development on the web, from static
                                 webpages, to dynamic applications utilizing back-end databases and authentication. I am
-                                familiar with a number of frameworks, with particular favoritism to React and Bootstrap.
+                                familiar with a number of frameworks including React and Bootstrap.
                             </p>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="./images/icons/apps.png" width="64" height="64" class="mx-auto" alt="Computer icon">
+                    <div class="card align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#2FAFFF"
+                            class="bi bi-tools" viewBox="0 0 16 16">
+                            <path
+                                d="M1 0L0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z" />
+                        </svg>
                         <div class="card-body">
-                            <h5 class="card-title">Desktop Applications</h5>
-                            <p class="card-text">I have experience using powerful languages such as Java and C# to
-                                create Windows applications, one of my past projects being an antivirus program.
-                                Additonally, I've worked with
-                                Unity3D to create a game for one of my high school courses.</p>
+                            <h5 class="card-title">IT Solutions</h5>
+                            <p class="card-text">I have provided solutions to basic household technical problems to
+                                numerous people in my local area. My expertise includes computer networking, computer
+                                hardware and basic PC repair, product recommendation, troubleshooting, and fixes for
+                                slowness.</p>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="./images/icons/cloud.png" width="64" height="64" class="mx-auto" alt="...">
+                    <div class="card align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#2FAFFF"
+                            class="bi bi-camera-reels" viewBox="0 0 16 16">
+                            <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z" />
+                            <path
+                                d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z" />
+                            <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                        </svg>
                         <div class="card-body">
-                            <h5 class="card-title">Plugins and Integrations</h5>
-                            <p class="card-text">I can work with various kinds of APIs to create integrations in popular
-                                video games and improve user experiences. I look forward to improving my literacy in
-                                using open-source platforms as well as creating my own.</p>
+                            <h5 class="card-title">Cinematography</h5>
+                            <p class="card-text">I make videos for personal enjoyment, class projects, and even online
+                                communities. My works include fine arts elements while attempting to produce them with
+                                professional quality.<br />View my motion reel on my <a href="./media.html"
+                                    style="color: #2FAFFF;">Media
+                                    page.</a>
+                            </p>
                         </div>
                     </div>
                 </div>
